@@ -1,0 +1,5 @@
+.venv/
+results/
+wandb/
+__pycache__
+data/__MACOSX

@@ -61,10 +61,10 @@ def create_datasets2(df):
                 "## Question:\n일출이나 일몰의 붉은색은 주로 _______ 않은 빛에 기인합니다.\n\n"
                 "## Choice:\n0) 흡수된\n1) 전달된\n2) 산란된\n3) 편광된\n\n"
                 "## Answer: 답은 2\n\n"
-                "## Instruction:\n다음 중 알맞은 보기를 고르세요.\n\n"
-                "## Question:\n계획과 성과 사이에는 명확한 연관성이 없다'는 입장을 취한 사람은 누구입니까?\n\n"
-                "## Choice:\n0) 마이클 포터\n1) 밀턴 프리드먼\n2) 게리 하멜\n3) 헨리 민츠버그\n\n"
-                "## Answer: 답은 3\n\n"
+                # "## Instruction:\n다음 중 알맞은 보기를 고르세요.\n\n"
+                # "## Question:\n계획과 성과 사이에는 명확한 연관성이 없다'는 입장을 취한 사람은 누구입니까?\n\n"
+                # "## Choice:\n0) 마이클 포터\n1) 밀턴 프리드먼\n2) 게리 하멜\n3) 헨리 민츠버그\n\n"
+                # "## Answer: 답은 3\n\n"
                 "## Instruction:\n이어질 알맞은 문장을 고르세요. \n\n"
                 "## Question:\n나이 든 근로자와 젊은 근로자가 직장을 잃었을 때, 나이 든 근로자는 일반적으로\n\n"
                 "## Choice:\n0) 더 많은 경험으로 인해 더 빨리 직장을 찾는다\n1) 새 직장을 찾는 데 더 오래 걸린다\n2) 새 직장을 찾기보다는 은퇴한다\n3) 고령자 고용 차별법(ADEA)을 이용하여 회사를 고소한다\n\n"
@@ -145,7 +145,7 @@ if __name__ == "__main__":
                 # load_format="bitsandbytes",
                 tensor_parallel_size=4,
                 max_model_len = 1024, 
-                max_num_seqs = 512,
+                max_num_seqs = 400,
                 enforce_eager=True
                 )
 

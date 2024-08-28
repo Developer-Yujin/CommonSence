@@ -144,7 +144,7 @@ if __name__ == "__main__":
                 quantization="AWQ", 
                 # load_format="bitsandbytes",
                 tensor_parallel_size=4,
-                max_model_len = 1024, 
+                max_model_len = 1000, 
                 max_num_seqs = 400,
                 enforce_eager=True
                 )

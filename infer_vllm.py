@@ -18,7 +18,7 @@ from vllm import LLM, SamplingParams
 
 os.environ["PYTORCH_CUDA_ALLOC_CONF"] = "expandable_segments:True"
 
-login(token="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")
+login(token="")
 
 def generate_dict2(df):
     prompt_t = "문제에 주어진 답안 중 가장 적절한 답안을 선택하시오. 답안은 0,1,2,3 중 하나로만 선택하시오."

@@ -7,7 +7,7 @@ from huggingface_hub import login
 
 os.environ["PYTORCH_CUDA_ALLOC_CONF"] = "expandable_segments:True"
 
-login(token="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")
+login(token="")
 
 model_path = 'meta-llama/Meta-Llama-3.1-70B'
 quant_path = 'Meta-Llama-3.1-70B-awq'
